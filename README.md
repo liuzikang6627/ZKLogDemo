@@ -12,7 +12,7 @@
 [ZKLog log:@"%@：Hello world!", @"me"];
 ```
 
-地址：https://github.com/liuzikang6627/ZKLogDemo <br>
+代码：https://github.com/liuzikang6627/ZKLogDemo <br>
 ps：这个库依附在当前的主窗口上的，请初始化好窗口以后使用；
 
 有图有真相：（里面数据均是测试用的假数据）<br>
