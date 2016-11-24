@@ -15,6 +15,14 @@
 		2C5BD2C61DE6983100425D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BD2C41DE6983100425D6F /* LaunchScreen.storyboard */; };
 		2C5BD2D11DE6983100425D6F /* ZKLogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2D01DE6983100425D6F /* ZKLogDemoTests.m */; };
 		2C5BD2DC1DE6983100425D6F /* ZKLogDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2DB1DE6983100425D6F /* ZKLogDemoUITests.m */; };
+		2C5BD2EB1DE6985000425D6F /* UIView+layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2EA1DE6985000425D6F /* UIView+layer.m */; };
+		2C5BD2EC1DE6985000425D6F /* UIView+layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2EA1DE6985000425D6F /* UIView+layer.m */; };
+		2C5BD2F41DE6985F00425D6F /* ZKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2EF1DE6985F00425D6F /* ZKLog.m */; };
+		2C5BD2F51DE6985F00425D6F /* ZKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2EF1DE6985F00425D6F /* ZKLog.m */; };
+		2C5BD2F61DE6985F00425D6F /* ZKLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2F11DE6985F00425D6F /* ZKLogModel.m */; };
+		2C5BD2F71DE6985F00425D6F /* ZKLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2F11DE6985F00425D6F /* ZKLogModel.m */; };
+		2C5BD2F81DE6985F00425D6F /* ZKLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2F31DE6985F00425D6F /* ZKLogView.m */; };
+		2C5BD2F91DE6985F00425D6F /* ZKLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BD2F31DE6985F00425D6F /* ZKLogView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		2C5BD2D71DE6983100425D6F /* ZKLogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKLogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5BD2DB1DE6983100425D6F /* ZKLogDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLogDemoUITests.m; sourceTree = "<group>"; };
 		2C5BD2DD1DE6983100425D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5BD2E91DE6985000425D6F /* UIView+layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+layer.h"; sourceTree = "<group>"; };
+		2C5BD2EA1DE6985000425D6F /* UIView+layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+layer.m"; sourceTree = "<group>"; };
+		2C5BD2EE1DE6985F00425D6F /* ZKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLog.h; sourceTree = "<group>"; };
+		2C5BD2EF1DE6985F00425D6F /* ZKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLog.m; sourceTree = "<group>"; };
+		2C5BD2F01DE6985F00425D6F /* ZKLogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLogModel.h; sourceTree = "<group>"; };
+		2C5BD2F11DE6985F00425D6F /* ZKLogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLogModel.m; sourceTree = "<group>"; };
+		2C5BD2F21DE6985F00425D6F /* ZKLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLogView.h; sourceTree = "<group>"; };
+		2C5BD2F31DE6985F00425D6F /* ZKLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLogView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,13 @@
 		2C5BD2B51DE6983100425D6F /* ZKLogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2C5BD2ED1DE6985F00425D6F /* ZKLog */,
 				2C5BD2B91DE6983100425D6F /* AppDelegate.h */,
 				2C5BD2BA1DE6983100425D6F /* AppDelegate.m */,
 				2C5BD2BC1DE6983100425D6F /* ViewController.h */,
 				2C5BD2BD1DE6983100425D6F /* ViewController.m */,
+				2C5BD2E91DE6985000425D6F /* UIView+layer.h */,
+				2C5BD2EA1DE6985000425D6F /* UIView+layer.m */,
 				2C5BD2BF1DE6983100425D6F /* Main.storyboard */,
 				2C5BD2C21DE6983100425D6F /* Assets.xcassets */,
 				2C5BD2C41DE6983100425D6F /* LaunchScreen.storyboard */,
@@ -138,6 +157,19 @@
 				2C5BD2DD1DE6983100425D6F /* Info.plist */,
 			);
 			path = ZKLogDemoUITests;
+			sourceTree = "<group>";
+		};
+		2C5BD2ED1DE6985F00425D6F /* ZKLog */ = {
+			isa = PBXGroup;
+			children = (
+				2C5BD2EE1DE6985F00425D6F /* ZKLog.h */,
+				2C5BD2EF1DE6985F00425D6F /* ZKLog.m */,
+				2C5BD2F01DE6985F00425D6F /* ZKLogModel.h */,
+				2C5BD2F11DE6985F00425D6F /* ZKLogModel.m */,
+				2C5BD2F21DE6985F00425D6F /* ZKLogView.h */,
+				2C5BD2F31DE6985F00425D6F /* ZKLogView.m */,
+			);
+			path = ZKLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +307,10 @@
 			files = (
 				2C5BD2BE1DE6983100425D6F /* ViewController.m in Sources */,
 				2C5BD2BB1DE6983100425D6F /* AppDelegate.m in Sources */,
+				2C5BD2EB1DE6985000425D6F /* UIView+layer.m in Sources */,
+				2C5BD2F61DE6985F00425D6F /* ZKLogModel.m in Sources */,
+				2C5BD2F81DE6985F00425D6F /* ZKLogView.m in Sources */,
+				2C5BD2F41DE6985F00425D6F /* ZKLog.m in Sources */,
 				2C5BD2B81DE6983100425D6F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5BD2F91DE6985F00425D6F /* ZKLogView.m in Sources */,
+				2C5BD2F51DE6985F00425D6F /* ZKLog.m in Sources */,
+				2C5BD2EC1DE6985000425D6F /* UIView+layer.m in Sources */,
 				2C5BD2D11DE6983100425D6F /* ZKLogDemoTests.m in Sources */,
+				2C5BD2F71DE6985F00425D6F /* ZKLogModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
