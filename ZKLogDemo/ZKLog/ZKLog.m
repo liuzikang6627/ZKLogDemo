@@ -88,7 +88,7 @@
     UIButton *actionBtn = [self buttonWithFrame:actionBtnFrame
                                      titleColor:[UIColor whiteColor]
                                           title:@""];
-    [actionBtn setTitle:@"Logs"
+    [actionBtn setTitle:@"Show Console"
                forState:UIControlStateNormal];
     [actionBtn setTitleColor:[UIColor blackColor]
                     forState:UIControlStateNormal];
@@ -181,7 +181,7 @@
     
     @synchronized (self)
     {
-        newLog = [NSString stringWithFormat:@">> %@ %@\n", [self localDate], newLog]; // 换行
+        newLog = [NSString stringWithFormat:@">> [%@] %@\n", [self localDate], newLog]; // 换行
         ZKLogModel *logModel = [ZKLogModel logWithText:newLog];
         
         [_logs addObject:logModel];
